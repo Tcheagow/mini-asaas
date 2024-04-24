@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
+    <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'cadastro.css')}"/>
     <title>Welcome to Grails</title>
 </head>
 <body>
