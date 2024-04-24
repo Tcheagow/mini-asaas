@@ -1,0 +1,67 @@
+.formulario {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.divInput{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6E8596;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.divInput input {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #6E8596;
+    font-size: 1em;
+}
+
+.divInput input::-webkit-input-placeholder  { 
+    color: #aeaeae; 
+    font-size: 1.3em;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-20%, -50%);
+}
+.inputButton {
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #7d9db6;
+}
+.inputButton:hover{
+    cursor: pointer;
+}
+.alertSuccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: greenyellow;
+    font-size: 1.3em;
+}
+@media (max-width: 570px) {
+    .divInput {
+        width: 100%;
+    }
+    .divInput input {
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 100%;
+    }
+}
