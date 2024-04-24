@@ -3,6 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'cadastro.css')}"/>
+    <script type="text/javascript" src="${resource(dir: 'js', file: 'cadastro.js')}"></script>
     <title>Welcome to Grails</title>
 </head>
 <body>
