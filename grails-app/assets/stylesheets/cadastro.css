@@ -54,3 +54,14 @@
     background-color: greenyellow;
     font-size: 1.3em;
 }
+@media (max-width: 570px) {
+    .divInput {
+        width: 100%;
+    }
+    .divInput input {
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 100%;
+    }
+}
