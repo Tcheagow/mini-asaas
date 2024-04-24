@@ -7,7 +7,7 @@
     <title>Welcome to Grails</title>
 </head>
 <body>
-    <form class="formulario" action="">
+    <form class="formulario" action="${createLink(controller: 'form', action: 'displayParameters')}" method="POST">
         <div class="divInput">
             <input type="text" name="name" id="name" placeholder="Digite seu Nome"/>
         </div>
@@ -33,7 +33,7 @@
         <div class="divInput">
             <input type="text" name="state" id="state" placeholder="Digite seu Estado"/>
         </div>
-        <input class="inputButton" type="button" value="Enviar" id="inputButton">
+        <input class="inputButton" type="submit" value="Enviar" id="inputButton">
     </form>
 </body>
 </html>
