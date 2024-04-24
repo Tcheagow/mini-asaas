@@ -8,7 +8,7 @@
 </head>
 <body>
     <% if (flash.message) { %>
-        <div class="alert-succes">
+        <div class="alertSuccess" id="divMessage">
             ${flash.message}
         </div>
     <% } %>
