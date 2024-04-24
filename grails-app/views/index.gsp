@@ -7,6 +7,11 @@
     <title>Welcome to Grails</title>
 </head>
 <body>
+    <% if (flash.message) { %>
+        <div class="alert-succes">
+            ${flash.message}
+        </div>
+    <% } %>
     <form class="formulario" action="${createLink(controller: 'form', action: 'displayParameters')}" method="POST">
         <div class="divInput">
             <input type="text" name="name" id="name" placeholder="Digite seu Nome"/>

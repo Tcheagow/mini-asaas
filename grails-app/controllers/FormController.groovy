@@ -8,6 +8,8 @@ class FormController {
 
         println formattedParameters.join("\n");
 
+        flash.message = "Formulário enviado com sucesso"
+        
         redirect uri: "/";
     }
 }
